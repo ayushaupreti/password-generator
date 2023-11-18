@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Generate Password</title>
+</head>
+<body>
+    <label for="characters" type="characters">Number of characters:</label>
+    <input type="number" class="characters" name="characters">
+
+    <div class="checklist">
+        <input type="checkbox" class="specialChars" name="specialChars" value="False">
+        <label for="specialChars">Special Characters</label><br><br>
+        <input type="checkbox" class="nums" name="nums" value="False">
+        <label for="nums">Numbers</label><br>
+    </div>
+    <button class="submit">Generate</button>
+
+    <h5 class="message"></h5>
+    <h2 class="password"></h2>
+    <script src="./app.js"></script>
+</body>
+
+</html>
